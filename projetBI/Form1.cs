@@ -69,5 +69,35 @@ namespace projetBI
             OraTest ora = new OraTest();
             ora.GetNbVarienteForEachCommand();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OraTest ora = new OraTest();
+            ora.GetNbFabricationForEachCommand();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            OraTest ora = new OraTest();
+            ora.GetNbPickingForEachCommand();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            OraTest ora = new OraTest();
+            ora.GetNbVarienteOpti();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            OraTest ora = new OraTest();
+            ora.GetNbFabricationOpti();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            OraTest ora = new OraTest();
+            ora.GetNbPickingOpti();
+        }
     }
 }
