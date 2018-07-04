@@ -18,7 +18,7 @@ namespace projetBI.Source_de_donnees
         IDictionary<int, string> GetPays();
 
 
-
-        void InsertCommandes(object toto);
+        
+        void InsertCommandes(string sql);
     }
 }
